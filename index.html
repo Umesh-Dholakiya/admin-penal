@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Evara Dashboard</title>
+
+    <!-- fonts css  -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+
+    <!-- font-awesome css  -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="assets/css/css-pro-layout.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/table.css">
+    <!-- custom link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body>
+    <div class="layout has-sidebar fixed-sidebar fixed-header">
+         <aside id="sidebar" class="sidebar break-point-lg has-bg-image">
+            <a id="btn-collapse" class="sidebar-collapser d-lg-flex"><i class="ri-arrow-left-s-line"></i></a>
+            <div class="sidebar-layout">
+                <img src="assets/img/logo.svg" style="width:150px; filter:brightness(2);">
+                <div class="sidebar-content">
+                    <nav class="menu open-current-submenu">
+                        <ul>
+                            <li class="menu-header"><span> GENERAL </span></li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="ri-vip-diamond-fill"></i>
+                                    </span>
+                                    <span class="menu-title">Components</span>
+                                    <span class="menu-suffix">
+                                        <span class="badge primary">Hot</span>
+                                    </span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Grid</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Layout</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item sub-menu">
+                                            <a href="#">
+                                                <span class="menu-title">Forms</span>
+                                            </a>
+                                            <div class="sub-menu-list">
+                                                <ul>
+                                                    <li class="menu-item">
+                                                        <a href="#">
+                                                            <span class="menu-title">Input</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="#">
+                                                            <span class="menu-title">Select</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-item sub-menu">
+                                                        <a href="#">
+                                                            <span class="menu-title">More</span>
+                                                        </a>
+                                                        <div class="sub-menu-list">
+                                                            <ul>
+                                                                <li class="menu-item">
+                                                                    <a href="#">
+                                                                        <span class="menu-title">CheckBox</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="menu-item">
+                                                                    <a href="#">
+                                                                        <span class="menu-title">Radio</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="menu-item sub-menu">
+                                                                    <a href="#">
+                                                                        <span class="menu-title">Want more ?</span>
+                                                                        <span class="menu-suffix">&#x1F914;</span>
+                                                                    </a>
+                                                                    <div class="sub-menu-list">
+                                                                        <ul>
+                                                                            <li class="menu-item">
+                                                                                <a href="#">
+                                                                                    <span
+                                                                                        class="menu-prefix">&#127881;</span>
+                                                                                    <span class="menu-title">You made it
+                                                                                    </span>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="ri-bar-chart-2-fill"></i>
+                                    </span>
+                                    <span class="menu-title">Charts</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Pie chart</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Line chart</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Bar chart</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="ri-shopping-cart-fill"></i>
+                                    </span>
+                                    <span class="menu-title">E-commerce</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Products</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Orders</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">credit card</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="ri-global-fill"></i>
+                                    </span>
+                                    <span class="menu-title">Maps</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Google maps</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Open street map</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="ri-paint-brush-fill"></i>
+                                    </span>
+                                    <span class="menu-title">Theme</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Dark</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <span class="menu-title">Light</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-header" style="padding-top: 20px"><span> EXTRA </span></li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="ri-book-2-fill"></i>
+                                    </span>
+                                    <span class="menu-title">Documentation</span>
+                                    <span class="menu-suffix">
+                                        <span class="badge secondary">Beta</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="ri-calendar-fill"></i>
+                                    </span>
+                                    <span class="menu-title">Calendar</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="ri-service-fill"></i>
+                                    </span>
+                                    <span class="menu-title">Examples</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </aside> 
+        <div id="overlay" class="overlay"></div>
+        <div class="layout">
+            <div>
+                <a id="btn-toggle" href="#" class="sidebar-toggler break-point-lg">
+                    <i class="ri-menu-line ri-xl"></i>
+                </a>
+            </div>
+            <div class="overlay"></div>
+
+            <main>
+                 <header class="d-none d-xl-flex">
+                    <div class="w-12 d-flex">
+                        <div class="w-4 d-flex justify-center align-center">
+                            <form>
+                                <div class="search-box  d-flex align-center justify-center">
+                                    <input type="search" placeholder="Search Term">
+                                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="w-8 d-flex p-r justify-end align-center">
+                             
+                            <button type="button" class="icon-button d-flex justify-center align-center">
+                                <i class="fa-solid fa-bell"></i>
+                                <span class="icon-button__badge">2</span>
+                            </button>
+                         
+                            <button class="js-toggle-fullscreen-btn toggle-fullscreen-btn"
+                                aria-label="Enter fullscreen mode" hidden>
+                                <svg class="toggle-fullscreen-svg" width="22" height="22" viewBox="-2 -2 28 28">
+                                    <g class="icon-fullscreen-enter">
+                                        <path d="M 2 9 v -7 h 7" />
+                                        <path d="M 22 9 v -7 h -7" />
+                                        <path d="M 22 15 v 7 h -7" />
+                                        <path d="M 2 15 v 7 h 7" />
+                                    </g>
+
+                                    <g class="icon-fullscreen-leave">
+                                        <path d="M 24 17 h -7 v 7" />
+                                        <path d="M 0 17 h 7 v 7" />
+                                        <path d="M 0 7 h 7 v -7" />
+                                        <path d="M 24 7 h -7 v -7" />
+                                    </g>
+                                </svg>
+                            </button>
+                          
+                            <div class="dropdown" tab-index="0">
+                                <button id="dropdown-btn"></button>
+                                <ul class="dropdown-content" id="dropdown-content"></ul>
+                            </div>
+                           
+                            <div class="profile">
+                                <div class="img-box">
+                                    <img src="https://i.postimg.cc/BvNYhMHS/user-img.jpg" alt="some user image">
+                                </div>
+                            </div>
+                            <div class="menu_profile">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-user"></i> Profile</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-envelope"></i> Inbox</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                                   
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </header> 
+
+                <div class="main-dashboard">
+
+                    <div class="dashboard ">
+                        <div class="w-12 d-flex py-12 align-center">
+                            <div class="w-12 w-lg-6">
+                                <h1>Dashboard</h1>
+                                <h5>Whole data about your business here</h5>
+                            </div>
+                            <div class="w-12 d-flex w-lg-6 justify-end">
+                                <a href="#"><button><i class="fa-regular fa-file-lines"></i>create report</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-12 d-flex py-12">
+                        <div class="w-12 w-md-6 w-lg-3 px-12-md  py-12 px-0">
+                            <div class="revenue d-flex align-center">
+                                <div class="w-3">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                </div>
+                                <div class="w-9">
+                                    <h3>Revenue</h3>
+                                    <h2>$13,456.5</h2>
+                                    <p>Shipping fees are not included</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-12 w-md-6 w-lg-3 px-12-md  py-12 px-0">
+                            <div class="revenue d-flex align-center">
+                                <div class="w-3">
+                                    <i class="fa-solid fa-van-shuttle i2"></i>
+                                </div>
+                                <div class="w-9">
+                                    <h3>Revenue</h3>
+                                    <h2>$13,456.5</h2>
+                                    <p>Shipping fees are not included</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-12 w-md-6 w-lg-3 px-12-md  py-12 px-0">
+                            <div class="revenue d-flex align-center">
+                                <div class="w-3">
+                                    <i class="fa-solid fa-table-cells i3"></i>
+                                </div>
+                                <div class="w-9">
+                                    <h3>Revenue</h3>
+                                    <h2>$13,456.5</h2>
+                                    <p>Shipping fees are not included</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-12 w-md-6 w-lg-3 px-12-md  py-12 px-0">
+                            <div class="revenue d-flex align-center">
+                                <div class="w-3">
+                                    <i class="fa-solid fa-basket-shopping i4"></i>
+                                </div>
+                                <div class="w-9">
+                                    <h3>Revenue</h3>
+                                    <h2>$13,456.5</h2>
+                                    <p>Shipping fees are not included</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-12 d-flex">
+                        <div class="w-12 w-xl-8 px-0">
+                            <div id="app"></div>
+                            <div class="w-12 px-0 d-flex">
+                                <div class="w-12 w-md-6 px-12-md  px-0">
+                                    <div class="box">
+                                        <h4>New Members</h4>
+                                        <div class="photo d-flex">
+                                            <div class="w-2">
+                                                <img src="assets/img/avtar1.jpg">
+                                            </div>
+                                            <div class="w-7">
+                                                <h5>Patric Adams</h5>
+                                                <p>Sanfrancisco</p>
+                                            </div>
+                                            <div class="w-3">
+                                                <a href="#"><button type="submit">+Add</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="photo d-flex">
+                                            <div class="w-2">
+                                                <img src="assets/img/avatar2.jpg">
+                                            </div>
+                                            <div class="w-7">
+                                                <h5>Dilan Specter</h5>
+                                                <p>Sanfrancisco</p>
+                                            </div>
+                                            <div class="w-3">
+                                                <a href="#"><button type="submit">+Add</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="photo d-flex">
+                                            <div class="w-2">
+                                                <img src="assets/img/avatar3.jpg">
+                                            </div>
+                                            <div class="w-7">
+                                                <h5>Tomas Baker</h5>
+                                                <p>Sanfrancisco</p>
+                                            </div>
+                                            <div class="w-3">
+                                                <a href="#"><button type="submit">+Add</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-12 w-md-6  px-12-md px-0">
+                                    <div class="box2">
+                                        <h4>Recent activities</h4>
+                                        <div class="photo2 w-12 d-flex">
+                                            <div class="w-1"><i class="fa-regular fa-circle-play"></i></div>
+                                            <div class="w-2">
+                                                <h5>Today</h5>
+                                            </div>
+                                            <div class="w-1 icon"><i class="fa-solid fa-arrow-right-long"></i></div>
+                                            <div class="w-8">
+                                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                                            </div>
+                                        </div>
+                                        <div class="photo2 w-12 d-flex">
+                                            <div class="w-1"><i class="fa-regular fa-circle-play"></i></div>
+                                            <div class="w-2">
+                                                <h5>
+                                                    17 May</h5>
+                                            </div>
+                                            <div class="w-1 icon"><i class="fa-solid fa-arrow-right-long"></i></div>
+                                            <div class="w-8">
+                                                <p>Debitis nesciunt voluptatum dicta reprehenderit</p>
+                                            </div>
+                                        </div>
+                                        <div class="photo2 w-12 d-flex">
+                                            <div class="w-1"><i class="fa-regular fa-circle-play"></i></div>
+                                            <div class="w-2">
+                                                <h5>
+                                                    13 May</h5>
+                                            </div>
+                                            <div class="w-1 icon"><i class="fa-solid fa-arrow-right-long"></i></div>
+                                            <div class="w-8">
+                                                <p>Accusamus voluptatibus voluptas.</p>
+                                            </div>
+                                        </div>
+                                        <div class="photo2 w-12 d-flex">
+                                            <div class="w-1"><i class="fa-regular fa-circle-play"></i></div>
+                                            <div class="w-2">
+                                                <h5>05 April </h5>
+                                            </div>
+                                            <div class="w-1 icon"><i class="fa-solid fa-arrow-right-long"></i></div>
+                                            <div class="w-8">
+                                                <p>At vero eos et accusamus et iusto odio dignissi</p>
+                                            </div>
+                                        </div>
+                                        <div class="photo2 w-12 d-flex">
+                                            <div class="w-1"><i class="fa-regular fa-circle-play"></i></div>
+                                            <div class="w-2">
+                                                <h5>26 Mar</h5>
+                                            </div>
+                                            <div class="w-1 icon"><i class="fa-solid fa-arrow-right-long"></i></div>
+                                            <div class="w-8">
+                                                <p>Responded to need “Volunteer Activities</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-12 w-xl-4 px-0">
+                            <div class="w-12 px-12-xl px-0">
+                                <div id="app1"></div>
+                            </div>
+                            <div class="w-12 app2 px-12-xl px-0 py-12">
+                                <div class="progress-section" data-aos="fade-left" data-aos-once="true">
+                                    <h3>Marketing Chanel</h3>
+                                    <div class="task-progress">
+                                        <p>Facebook
+                                            <span>15%</span>
+                                        </p>
+                                        <progress class="progress progress1" max="100" value="15"></progress>
+                                    </div>
+                                    <div class="task-progress">
+                                        <p>Instagram
+                                            <span>65%</span>
+                                        </p>
+                                        <progress class="progress progress1" max="100" value="65"></progress>
+                                    </div>
+                                    <div class="task-progress">
+                                        <p>Google
+                                            <span>51%</span>
+                                        </p>
+                                        <progress class="progress progress1" max="100" value="51"></progress>
+                                    </div>
+                                    <div class="task-progress">
+                                        <p>Twitter
+                                            <span>80%</span>
+                                        </p>
+                                        <progress class="progress progress1" max="100" value="80"></progress>
+                                    </div>
+                                    <div class="task-progress">
+                                        <p>Other
+                                            <span>80%</span>
+                                        </p>
+                                        <progress class="progress progress1" max="100" value="80"></progress>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-12 table-card py-12">     
+                            <div class="table-header ">
+                                <h3>Latest orders</h3>
+                            </div>
+
+                            <table>
+                                <thead>
+                                    <tr class="table-headers">
+                                        <th><input type="checkbox" name="" id=""></th>
+                                        <th>Order ID</th>
+                                        <th>Billing Name</th>
+                                        <th>Date</th>
+                                        <th>Total</th>
+                                        <th>Payment Status</th>
+                                        <th>Payment Method</th>
+                                        <th>View Details</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th><input type="checkbox" name="" id=""></th>
+                                        <td class="bux">#SK2540</td>
+                                        <th class="mobile-header">Number</th>
+                                        <td>Neal Matthews</td>
+                                        <th class="mobile-header">Market rate</th>
+                                        <td>07 Oct, 2022</td>
+                                        <th class="mobile-header">Weight</th>
+                                        <td>$400</td>
+                                        <th class="mobile-header">Value</th>
+                                        <td class="card">Paid</td>
+                                        <th class="mobile-header">payment mathod</th>
+                                        <td><i class="fa-solid fa-credit-card"></i> Mastercard</td>
+                                        <th class="mobile-header">detais</th>
+                                        <td class="btn">View Details</td>
+                                    </tr>
+                                    <tr>
+                                        <th><input type="checkbox" name="" id=""></th>
+                                        <td class="bux">#SK2541</td>
+                                        <th class="mobile-header">Number</th>
+                                        <td>Jamal Burnett</td>
+                                        <th class="mobile-header">Market rate</th>
+                                        <td>07 Oct, 2022</td>
+                                        <th class="mobile-header">Weight</th>
+                                        <td>$380</td>
+                                        <th class="mobile-header">Value</th>
+                                        <td class="card1">Chargeback</td>
+                                        <th class="mobile-header">payment mathod</th>
+                                        <td><i class="fa-solid fa-credit-card"></i> Visa</td>
+                                        <th class="mobile-header">detais</th>
+                                        <td class="btn">View Details</td>
+                                    </tr>
+                                    <tr>
+                                        <th><input type="checkbox" name="" id=""></th>
+                                        <td class="bux">#SK2542</td>
+                                        <th class="mobile-header">Number</th>
+                                        <td>Juan Mitchell</td>
+                                        <th class="mobile-header">Market rate</th>
+                                        <td>06 Oct, 2022</td>
+                                        <th class="mobile-header">Weight</th>
+                                        <td>$384</td>
+                                        <th class="mobile-header">Value</th>
+                                        <td class="card">Paid</td>
+                                        <th class="mobile-header">payment mathod</th>
+                                        <td><i class="fa-solid fa-credit-card"></i> Paypal</td>
+                                        <th class="mobile-header">detais</th>
+                                        <td class="btn">View Details</td>
+                                    </tr>
+                                    <tr>
+                                        <th><input type="checkbox" name="" id=""></th>
+                                        <td class="bux">#SK2543</td>
+                                        <th class="mobile-header">Number</th>
+                                        <td>Barry Dick</td>
+                                        <th class="mobile-header">Market rate</th>
+                                        <td>05 Oct, 2022</td>
+                                        <th class="mobile-header">Weight</th>
+                                        <td>$412</td>
+                                        <th class="mobile-header">Value</th>
+                                        <td class="card">Paid</td>
+                                        <th class="mobile-header">payment mathod</th>
+                                        <td> <i class="fa-solid fa-credit-card"></i>Mastercard</td>
+                                        <th class="mobile-header">detais</th>
+                                        <td class="btn">View Details</td>
+                                    </tr>
+                                    <tr>
+                                        <th><input type="checkbox" name="" id=""></th>
+                                        <td class="bux">#SK2544</td>
+                                        <th class="mobile-header">Number</th>
+                                        <td>Ronald Taylor </td>
+                                        <th class="mobile-header">Market rate</th>
+                                        <td>04 Oct, 2022</td>
+                                        <th class="mobile-header">Weight</th>
+                                        <td>$404</td>
+                                        <th class="mobile-header">Value</th>
+                                        <td class="card2">Refund</td>
+                                        <th class="mobile-header">payment mathod</th>
+                                        <td><i class="fa-solid fa-credit-card"></i> Visa</td>
+                                        <th class="mobile-header">detais</th>
+                                        <td class="btn">View Details</td>
+                                    </tr>
+                                    <tr>
+                                        <th><input type="checkbox" name="" id=""></th>
+                                        <td class="bux">#SK2545</td>
+                                        <th class="mobile-header">Number</th>
+                                        <td>Jacob Hunter</td>
+                                        <th class="mobile-header">Market rate</th>
+                                        <td>04 Oct, 2022</td>
+                                        <th class="mobile-header">Weight</th>
+                                        <td>$392</td>
+                                        <th class="mobile-header">Value</th>
+                                        <td class="card">Paid</td>
+                                        <th class="mobile-header">payment mathod</th>
+                                        <td><i class="fa-solid fa-credit-card"></i> Paypal</td>
+                                        <th class="mobile-header">detais</th>
+                                        <td class="btn">View Details</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                 </div>
+
+                <div class="footer d-flex align-center justify-center">
+                    <p>2023 ©, Evara - HTML Ecommerce Template .</p>
+                    <p>All rights reserved</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- sidebar start  -->
+    <script>
+        const ANIMATION_DURATION = 300;
+
+        const SIDEBAR_EL = document.getElementById("sidebar");
+
+        const SUB_MENU_ELS = document.querySelectorAll(
+            ".menu > ul > .menu-item.sub-menu"
+        );
+
+        const FIRST_SUB_MENUS_BTN = document.querySelectorAll(
+            ".menu > ul > .menu-item.sub-menu > a"
+        );
+
+        const INNER_SUB_MENUS_BTN = document.querySelectorAll(
+            ".menu > ul > .menu-item.sub-menu .menu-item.sub-menu > a"
+        );
+
+        class PopperObject {
+            instance = null;
+            reference = null;
+            popperTarget = null;
+
+            constructor(reference, popperTarget) {
+                this.init(reference, popperTarget);
+            }
+
+            init(reference, popperTarget) {
+                this.reference = reference;
+                this.popperTarget = popperTarget;
+                this.instance = Popper.createPopper(this.reference, this.popperTarget, {
+                    placement: "right",
+                    strategy: "fixed",
+                    resize: true,
+                    modifiers: [
+                        {
+                            name: "computeStyles",
+                            options: {
+                                adaptive: false
+                            }
+                        },
+                        {
+                            name: "flip",
+                            options: {
+                                fallbackPlacements: ["left", "right"]
+                            }
+                        }
+                    ]
+                });
+
+                document.addEventListener(
+                    "click",
+                    (e) => this.clicker(e, this.popperTarget, this.reference),
+                    false
+                );
+
+                const ro = new ResizeObserver(() => {
+                    this.instance.update();
+                });
+
+                ro.observe(this.popperTarget);
+                ro.observe(this.reference);
+            }
+
+            clicker(event, popperTarget, reference) {
+                if (
+                    SIDEBAR_EL.classList.contains("collapsed") &&
+                    !popperTarget.contains(event.target) &&
+                    !reference.contains(event.target)
+                ) {
+                    this.hide();
+                }
+            }
+
+            hide() {
+                this.instance.state.elements.popper.style.visibility = "hidden";
+            }
+        }
+
+        class Poppers {
+            subMenuPoppers = [];
+
+            constructor() {
+                this.init();
+            }
+
+            init() {
+                SUB_MENU_ELS.forEach((element) => {
+                    this.subMenuPoppers.push(
+                        new PopperObject(element, element.lastElementChild)
+                    );
+                    this.closePoppers();
+                });
+            }
+
+            togglePopper(target) {
+                if (window.getComputedStyle(target).visibility === "hidden")
+                    target.style.visibility = "visible";
+                else target.style.visibility = "hidden";
+            }
+
+            updatePoppers() {
+                this.subMenuPoppers.forEach((element) => {
+                    element.instance.state.elements.popper.style.display = "none";
+                    element.instance.update();
+                });
+            }
+
+            closePoppers() {
+                this.subMenuPoppers.forEach((element) => {
+                    element.hide();
+                });
+            }
+        }
+
+        const slideUp = (target, duration = ANIMATION_DURATION) => {
+            const { parentElement } = target;
+            parentElement.classList.remove("open");
+            target.style.transitionProperty = "height, margin, padding";
+            target.style.transitionDuration = `${duration}ms`;
+            target.style.boxSizing = "border-box";
+            target.style.height = `${target.offsetHeight}px`;
+            target.offsetHeight;
+            target.style.overflow = "hidden";
+            target.style.height = 0;
+            target.style.paddingTop = 0;
+            target.style.paddingBottom = 0;
+            target.style.marginTop = 0;
+            target.style.marginBottom = 0;
+            window.setTimeout(() => {
+                target.style.display = "none";
+                target.style.removeProperty("height");
+                target.style.removeProperty("padding-top");
+                target.style.removeProperty("padding-bottom");
+                target.style.removeProperty("margin-top");
+                target.style.removeProperty("margin-bottom");
+                target.style.removeProperty("overflow");
+                target.style.removeProperty("transition-duration");
+                target.style.removeProperty("transition-property");
+            }, duration);
+        };
+        const slideDown = (target, duration = ANIMATION_DURATION) => {
+            const { parentElement } = target;
+            parentElement.classList.add("open");
+            target.style.removeProperty("display");
+            let { display } = window.getComputedStyle(target);
+            if (display === "none") display = "block";
+            target.style.display = display;
+            const height = target.offsetHeight;
+            target.style.overflow = "hidden";
+            target.style.height = 0;
+            target.style.paddingTop = 0;
+            target.style.paddingBottom = 0;
+            target.style.marginTop = 0;
+            target.style.marginBottom = 0;
+            target.offsetHeight;
+            target.style.boxSizing = "border-box";
+            target.style.transitionProperty = "height, margin, padding";
+            target.style.transitionDuration = `${duration}ms`;
+            target.style.height = `${height}px`;
+            target.style.removeProperty("padding-top");
+            target.style.removeProperty("padding-bottom");
+            target.style.removeProperty("margin-top");
+            target.style.removeProperty("margin-bottom");
+            window.setTimeout(() => {
+                target.style.removeProperty("height");
+                target.style.removeProperty("overflow");
+                target.style.removeProperty("transition-duration");
+                target.style.removeProperty("transition-property");
+            }, duration);
+        };
+
+        const slideToggle = (target, duration = ANIMATION_DURATION) => {
+            if (window.getComputedStyle(target).display === "none")
+                return slideDown(target, duration);
+            return slideUp(target, duration);
+        };
+
+        const PoppersInstance = new Poppers();
+
+        /**
+         * wait for the current animation to finish and update poppers position
+         */
+        const updatePoppersTimeout = () => {
+            setTimeout(() => {
+                PoppersInstance.updatePoppers();
+            }, ANIMATION_DURATION);
+        };
+
+        /**
+         * sidebar collapse handler
+         */
+        document.getElementById("btn-collapse").addEventListener("click", () => {
+            SIDEBAR_EL.classList.toggle("collapsed");
+            PoppersInstance.closePoppers();
+            if (SIDEBAR_EL.classList.contains("collapsed"))
+                FIRST_SUB_MENUS_BTN.forEach((element) => {
+                    element.parentElement.classList.remove("open");
+                });
+
+            updatePoppersTimeout();
+        });
+
+        /**
+         * sidebar toggle handler (on break point )
+         */
+        document.getElementById("btn-toggle").addEventListener("click", () => {
+            SIDEBAR_EL.classList.toggle("toggled");
+
+            updatePoppersTimeout();
+        });
+
+        /**
+         * toggle sidebar on overlay click
+         */
+        document.getElementById("overlay").addEventListener("click", () => {
+            SIDEBAR_EL.classList.toggle("toggled");
+        });
+
+        const defaultOpenMenus = document.querySelectorAll(".menu-item.sub-menu.open");
+
+        defaultOpenMenus.forEach((element) => {
+            element.lastElementChild.style.display = "block";
+        });
+
+        /**
+         * handle top level submenu click
+         */
+        FIRST_SUB_MENUS_BTN.forEach((element) => {
+            element.addEventListener("click", () => {
+                if (SIDEBAR_EL.classList.contains("collapsed"))
+                    PoppersInstance.togglePopper(element.nextElementSibling);
+                else {
+                    const parentMenu = element.closest(".menu.open-current-submenu");
+                    if (parentMenu)
+                        parentMenu
+                            .querySelectorAll(":scope > ul > .menu-item.sub-menu > a")
+                            .forEach(
+                                (el) =>
+                                    window.getComputedStyle(el.nextElementSibling).display !==
+                                    "none" && slideUp(el.nextElementSibling)
+                            );
+                    slideToggle(element.nextElementSibling);
+                }
+            });
+        });
+
+        /**
+         * handle inner submenu click
+         */
+        INNER_SUB_MENUS_BTN.forEach((element) => {
+            element.addEventListener("click", () => {
+                slideToggle(element.nextElementSibling);
+            });
+        });
+
+    </script>
+    <!-- sidebar end  -->
+
+    <!-- notification start  -->
+    <script>
+        var el = document.querySelector('.notification');
+        document.querySelector('button').addEventListener('click', function () {
+            var count = Number(el.getAttribute('data-count')) || 0;
+            el.setAttribute('data-count', count + 1);
+            el.classList.remove('notify');
+            el.offsetWidth = el.offsetWidth;
+            el.classList.add('notify');
+            if (count === 0) {
+                el.classList.add('show-count');
+            }
+        }, false);
+
+    </script>
+    <!-- notification end  -->
+
+    <!-- fullscreen start -->
+    <script>
+        if (document.fullscreenEnabled || document.webkitFullscreenEnabled) {
+            const toggleBtn = document.querySelector('.js-toggle-fullscreen-btn');
+
+            const styleEl = document.createElement('link');
+            styleEl.setAttribute('rel', 'stylesheet');
+            styleEl.setAttribute('href', 'https://codepen.io/tiggr/pen/poJoLyW.css');
+            styleEl.addEventListener('load', function () {
+                toggleBtn.hidden = false;
+            });
+            document.head.appendChild(styleEl);
+
+            toggleBtn.addEventListener('click', function () {
+                if (document.fullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitFullscreenElement) {
+                    document.webkitCancelFullScreen()
+                } else if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen();
+                } else {
+                    document.documentElement.webkitRequestFullScreen();
+                }
+            });
+
+            document.addEventListener('fullscreenchange', handleFullscreen);
+            document.addEventListener('webkitfullscreenchange', handleFullscreen);
+
+
+            function handleFullscreen() {
+                if (document.fullscreen || document.webkitFullscreenElement) {
+                    toggleBtn.classList.add('on');
+                    toggleBtn.setAttribute('aria-label', 'Exit fullscreen mode');
+                } else {
+                    toggleBtn.classList.remove('on');
+                    toggleBtn.setAttribute('aria-label', 'Enter fullscreen mode');
+                }
+            }
+        }
+    </script>
+    <!-- fullscreen end -->
+
+    <!-- languege start  -->
+    <script>
+        const locales = ["en-GB", "ar-SA", "hi-IN", "it-IT"];
+
+        function getFlagSrc(countryCode) {
+            return /^[A-Z]{2}$/.test(countryCode)
+                ? `https://www.countryflagicons.com/SHINY/64/${countryCode.toUpperCase()}.png`
+                : "";
+        }
+
+        const dropdownBtn = document.getElementById("dropdown-btn");
+        const dropdownContent = document.getElementById("dropdown-content");
+
+        function setSelectedLocale(locale) {
+            const intlLocale = new Intl.Locale(locale);
+            const langName = new Intl.DisplayNames([locale], {
+                type: "language",
+            }).of(intlLocale.language);
+
+            dropdownContent.innerHTML = "";
+
+            const otherLocales = locales.filter((loc) => loc !== locale);
+            otherLocales.forEach((otherLocale) => {
+                const otherIntlLocale = new Intl.Locale(otherLocale);
+                const otherLangName = new Intl.DisplayNames([otherLocale], {
+                    type: "language",
+                }).of(otherIntlLocale.language);
+
+                const listEl = document.createElement("li");
+                listEl.innerHTML = `${otherLangName}<img src="${getFlagSrc(
+                    otherIntlLocale.region
+                )}" />`;
+                listEl.value = otherLocale;
+                listEl.addEventListener("mousedown", function () {
+                    setSelectedLocale(otherLocale);
+                });
+                dropdownContent.appendChild(listEl);
+            });
+
+            dropdownBtn.innerHTML = `<img src="${getFlagSrc(
+                intlLocale.region
+            )}" />${langName}<span class="arrow-down"></span>`;
+        }
+
+        setSelectedLocale(locales[0]);
+        const browserLang = new Intl.Locale(navigator.language).language;
+        for (const locale of locales) {
+            const localeLang = new Intl.Locale(locale).language;
+            if (localeLang === browserLang) {
+                setSelectedLocale(locale);
+            }
+        }
+    </script>
+    <!-- languege end   -->
+
+    <!-- profile js start  -->
+    <script>
+        let profile = document.querySelector('.profile');
+        let menu_profile = document.querySelector('.menu_profile');
+
+        profile.onclick = function () {
+            menu_profile.classList.toggle('active');
+        }
+    </script>
+    <!-- profile js end  -->
+
+    <!-- area chart js start  -->
+    <script>
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/findindex_polyfill_mdn"><\/script>'
+            )
+    </script>
+
+    <script src="assets/js/react.production.min.js"></script>
+    <script src="assets/js/react-dom.production.min.js"></script>
+    <script src="assets/js/prop-types.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/apexcharts.js"></script>
+    <script src="assets/js/react-apexcharts.iife.min.js"></script>
+
+    <script>
+        // Replace Math.random() with a pseudo-random number generator to get reproducible results in e2e tests
+        // Based on https://gist.github.com/blixt/f17b47c62508be59987b
+        var _seed = 42;
+        Math.random = function () {
+            _seed = _seed * 16807 % 2147483647;
+            return (_seed - 1) / 2147483646;
+        };
+    </script>
+
+    <script type="text/babel">
+        class ApexChart extends React.Component {
+            constructor(props) {
+                super(props);
+
+                this.state = {
+
+                    series: [{
+                        name: 'series1',
+                        data: [31, 40, 28, 51, 42, 109, 100]
+                    }, {
+                        name: 'series2',
+                        data: [11, 32, 45, 32, 34, 52, 41]
+                    }],
+                    options: {
+                        chart: {
+                            height: 500,
+                            type: 'area',
+                            foreColor: '#ffffff'
+                        },
+                        dataLabels: {
+                            enabled: false
+                        },
+                        stroke: {
+                            curve: 'smooth'
+                        },
+                        xaxis: {
+                            type: 'datetime',
+                            categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+                        },
+                        tooltip: {
+                            x: {
+                                format: 'dd/MM/yy HH:mm'
+                            },
+                        },
+                    },
+
+
+                };
+            }
+
+
+
+            render() {
+                return (
+                    <div>
+                        <div id="chart">
+                            <ReactApexChart options={this.state.options} series={this.state.series} type="area" height={500} />
+                        </div>
+                        <div id="html-dist"></div>
+                    </div>
+                );
+            }
+        }
+
+        const domContainer = document.querySelector('#app');
+        ReactDOM.render(React.createElement(ApexChart), domContainer);
+    </script>
+    <!-- area chart js  end  -->
+
+    <script type="text/babel">
+        class ApexChart extends React.Component {
+            constructor(props) {
+                super(props);
+
+                this.state = {
+
+                    series: [{
+                        name: 'Net Profit',
+                        data: [44, 55, 57, 56,]
+                    }, {
+                        name: 'Revenue',
+                        data: [76, 85, 101, 98]
+                    }, {
+                        name: 'Free Cash Flow',
+                        data: [35, 41, 36, 26]
+                    }],
+                    options: {
+                        chart: {
+                            type: 'bar',
+                            height: 350,
+                            foreColor: '#fff',
+                        },
+                        plotOptions: {
+                            bar: {
+                                horizontal: false,
+                                columnWidth: '55%',
+                                endingShape: 'rounded'
+                            },
+                        },
+                        dataLabels: {
+                            enabled: false
+                        },
+                        stroke: {
+                            show: true,
+                            width: 2,
+                            colors: ['transparent']
+                        },
+                        xaxis: {
+                            categories: ['Feb', 'Mar', 'Apr', 'May'],
+                        },
+                        yaxis: {
+                            title: {
+                                text: '$ (thousands)'
+                            }
+                        },
+                        fill: {
+                            opacity: 1
+                        },
+                        tooltip: {
+                            y: {
+                                formatter: function (val) {
+                                    return "$ " + val + " thousands"
+                                }
+                            }
+                        }
+                    },
+
+
+                };
+            }
+
+
+
+            render() {
+                return (
+                    <div>
+                        <div id="chart">
+                            <ReactApexChart options={this.state.options} series={this.state.series} type="bar" height={350} />
+                        </div>
+                        <div id="html-dist"></div>
+                    </div>
+                );
+            }
+        }
+
+        const domContainer = document.querySelector('#app1');
+        ReactDOM.render(React.createElement(ApexChart), domContainer);
+    </script>
+
+    <!-- table js start  -->
+    <script src="assets/js/jquery.2.1.3.min.js"></script>
+    <script>
+        $(window).on('resize', function () {
+
+            if ($(this).width() < 760) {
+                $('tr td:first-child').click(function () {
+
+                    $(this).siblings().css({ 'display': 'inline-block' });
+
+                    var $this = $(this);
+                    setTimeout(function () {
+                        $this.siblings().css('transform', 'translateY(0)');
+                    }, 0);
+
+                    $('tr td:first-child').not($(this)).siblings().css({ 'display': 'none', 'transform': 'translateY(-9999px)' });
+                });
+            } else if ($(this).width() > 760) {
+                //unbind click : name is not clickable when screen is > 700px
+                $("tr td:first-child").unbind("click");
+                //remove with jquery added styles
+                $('tr td:first-child').siblings().css({ 'display': '', 'transform': '' });
+            }
+
+        }).resize();
+    </script>
+
+    <!-- table js end  -->
+
+    
+    <script>
+        let index = 1;
+
+        const on = (listener, query, fn) => {
+            document.querySelectorAll(query).forEach(item => {
+                item.addEventListener(listener, el => {
+                    fn(el);
+                })
+            })
+        }
+
+        on('click', '.selectBtn', item => {
+            const next = item.target.nextElementSibling;
+            next.classList.toggle('toggle');
+            next.style.zIndex = index++;
+        });
+        on('click', '.option', item => {
+            item.target.parentElement.classList.remove('toggle');
+
+            const parent = item.target.closest('.select').children[0];
+            parent.setAttribute('data-type', item.target.getAttribute('data-type'));
+            parent.innerText = item.target.innerText;
+        })
+    </script>
+
+
+</body>
+
+</html>
